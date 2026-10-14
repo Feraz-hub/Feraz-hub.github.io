@@ -30,6 +30,6 @@ Blender pictures are user-supplied viewport captures, labeled as studies or work
 
 The attendance planner calculates the minimum additional classes needed to meet an end-of-term attendance percentage. It is an estimate, not institution policy. The contrast checker uses WCAG relative luminance and contrast formulas.
 
-The phone number supplied during intake was omitted because its intended full format was uncertain. Confirm it before adding a phone link. Contact email: feranmiadenaya69@gmail.com, confirmed by the owner.
+Contact details confirmed by the owner: +2347032373712 and feranmiadenaya69@gmail.com. The phone link uses the international tel: format.
 
 No secrets, account credentials or private contact source files are included. Google Fonts is used for DM Sans and Manrope, with system font fallbacks.
