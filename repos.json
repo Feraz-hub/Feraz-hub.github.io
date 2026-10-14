@@ -60,6 +60,16 @@
     "size": 2
   },
   {
+    "name": "Feraz-hub.github.io",
+    "description": "Feranmi Adenaya — web developer, Zentor co-founder and creative builder.",
+    "html_url": "https://github.com/Feraz-hub/Feraz-hub.github.io",
+    "homepage": null,
+    "language": "HTML",
+    "fork": false,
+    "archived": false,
+    "size": 0
+  },
+  {
     "name": "flip-cards",
     "description": "re",
     "html_url": "https://github.com/Feraz-hub/flip-cards",
@@ -270,3 +280,4 @@
     "size": 2
   }
 ]
+
