@@ -35,12 +35,13 @@ function renderRepos() {
   document.querySelector('#repo-status').textContent = `${filtered.length} of ${repos.length} public repositories · snapshot October 2026`;
   if (!filtered.length) { const p = document.createElement('p'); p.className = 'repo-empty'; p.textContent = 'No matches. Try another search or filter.'; root.append(p); }
   filtered.forEach((r,i) => {
+    const isEmpty = !r.size && r.name !== 'Feraz-hub.github.io';
     const item = document.createElement('article'); item.className = 'repo-row';
     const index = document.createElement('span'); index.className = 'repo-index'; index.textContent = String(i+1).padStart(2,'0');
     const info = document.createElement('div'); info.className = 'repo-info';
     const link = document.createElement('a'); link.href = r.html_url; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = repoCopy[r.name]?.[0] || r.name;
-    const text = document.createElement('p'); text.textContent = r.fork ? 'Fork of a community project · not original authorship' : !r.size ? 'Empty repository · placeholder' : repoCopy[r.name]?.[1] || 'Learning repository · browse the source on GitHub.';
-    const badge = document.createElement('span'); badge.className = 'repo-badge'; badge.textContent = r.fork ? 'FORK' : !r.size ? 'EMPTY' : r.language || 'SOURCE';
+    const text = document.createElement('p'); text.textContent = r.fork ? 'Fork of a community project · not original authorship' : isEmpty ? 'Empty repository · placeholder' : repoCopy[r.name]?.[1] || 'Learning repository · browse the source on GitHub.';
+    const badge = document.createElement('span'); badge.className = 'repo-badge'; badge.textContent = r.fork ? 'FORK' : isEmpty ? 'EMPTY' : r.language || 'SOURCE';
     const arrow = document.createElement('span'); arrow.className = 'repo-arrow'; arrow.textContent = '↗'; arrow.setAttribute('aria-hidden','true');
     info.append(link,badge,text); item.append(index,info,arrow); root.append(item);
   });
