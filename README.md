@@ -1,4 +1,33 @@
-# Feranmi Adenaya — portfolio
+# Feranmi Adenaya
+
+Computer Science student at Babcock University, web developer and Zentor co-founder. I build web interfaces and explore how software can solve everyday problems.
+
+**[View my portfolio](https://feraz-hub.github.io/)** · **[Explore Zentor](https://zentor.ink/)** · **[Contact](https://feraz-hub.github.io/#contact)**
+
+Open to a six-month **SIWES placement, January–June 2027**, preferably in Abuja or Lagos, in software development or IT.
+
+## Start here
+
+| Project | Focus | Explore |
+| --- | --- | --- |
+| **Zentor** | Collaborative attendance-management product | [Product website](https://zentor.ink/) · [My portfolio](https://feraz-hub.github.io/#work) |
+| **Developer portfolio** | Project gallery, attendance planner and contrast checker | [Live site](https://feraz-hub.github.io/) · [Source](./index.html) |
+| **Multi-step form** | Form navigation, subscription options and summary UI | [Repository](https://github.com/Feraz-hub/multi-step-form-main) |
+| **Sneaker product page** | Product gallery and cart interactions | [Repository](https://github.com/Feraz-hub/e-commerce) |
+| **Country Explorer** | External API data, search and filtering; early project | [Repository](https://github.com/Feraz-hub/Country-API) |
+| **Bean Scene** | Coffee-shop landing-page study | [Repository](https://github.com/Feraz-hub/bean_scene) |
+
+## Tools I work with
+
+- **Web development:** JavaScript, React, Vue, HTML and CSS.
+- **Backend and programming:** Node.js, PHP, Python and Java.
+- **Creative work:** Blender and Roblox asset studies.
+
+Earlier repositories include practice challenges and experiments. Each featured README explains its scope and current limitations.
+
+---
+
+# Portfolio development guide
 
 A responsive, buildless portfolio featuring Zentor, Blender studies, all public Feraz-hub repositories, and two interactive experiments. Designed for GitHub Pages.
 
@@ -30,6 +59,6 @@ Blender pictures are user-supplied viewport captures, labeled as studies or work
 
 The attendance planner calculates the minimum additional classes needed to meet an end-of-term attendance percentage. It is an estimate, not institution policy. The contrast checker uses WCAG relative luminance and contrast formulas.
 
-Contact details confirmed by the owner: +2347032373712 and feranmiadenaya69@gmail.com. The phone link uses the international tel: format.
+Contact information is available through the live portfolio's contact section.
 
 No secrets, account credentials or private contact source files are included. Google Fonts is used for DM Sans and Manrope, with system font fallbacks.
